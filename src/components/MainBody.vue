@@ -1,7 +1,6 @@
 <template>
   <div style="height: 100%">
     <el-container>
-
       <el-container  style="height: 100%; border: 5px solid #eee">
           <el-aside width="178px" class="aside" style="height: 100%">
             <my-aside></my-aside>
@@ -11,7 +10,6 @@
           <my-main></my-main>
         </el-main>
       </el-container>
-
     </el-container>
   </div>
 </template>

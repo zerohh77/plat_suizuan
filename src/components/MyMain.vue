@@ -32,8 +32,11 @@
         <br/>
         <el-footer>
           <div style="width:100%;float:left;text-align:center;border:solid 2px #808080;border-radius: 2px">
-            <div style="padding-top:5%;padding-bottom:5%">
-              <span style="width:100%;color:#c9c9c9">Console</span>
+            <div style="padding-top:1%">
+              <span style="width:100%" >Console</span>
+              <br/>
+              <el-image  style="width: 95%; height: 100px"
+                         :src="require('@/assets/Console_demo.jpg')"></el-image>
               <div style="height: 10px;width: 100%">
               </div>
             </div>
