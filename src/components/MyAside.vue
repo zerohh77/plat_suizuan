@@ -4,27 +4,16 @@
       <el-col :span="24">
         <el-menu
             :uniqueOpened="true"
-            :default-openeds="['1','2']"
+            :default-openeds="['2','3']"
             default-active="2"
             class="el-menu-vertical-demo"
             @open="handleOpen"
             @close="handleClose"
-            background-color="#545c64"
-            text-color="#fff"
-            active-text-color="#ffd04b"
+            background-color="#97CBFF"
+            text-color="#00000"
+            active-text-color="#FFFFFF"
             style="height: 100%"
         >
-          <el-sub-menu index="1">
-            <template #title>
-              <i class="el-icon-location"></i>
-              <span>主要模块</span>
-            </template>
-            <el-menu-item-group>
-              <el-menu-item index="1-1">功能模块</el-menu-item>
-              <el-menu-item index="1-2">数据加载</el-menu-item>
-            </el-menu-item-group>
-          </el-sub-menu>
-
           <el-sub-menu index="2">
             <template #title>
               <i class="el-icon-location"></i>
